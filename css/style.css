@@ -1,0 +1,289 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    height: 98%;
+    width: 98%;
+    background-image: url(../images/Port_2_Background.jpg);
+    margin: 1% 0 0 1%;
+}
+
+/*navigation bar*/
+nav {
+    height: 150px;
+    position: relative;
+    border-bottom: 1px solid grey;
+}
+
+/*icons part*/
+.icons {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.align-center {
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.twitter {
+    float: left;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.facebook {
+    float: left;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.insta {
+    margin-top: 25px;
+    float: left;
+}
+
+.center-image {
+    width: 20%;
+    height: 100%;
+    margin: auto;
+    z-index: 100;
+    float: left;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.sidebar {
+    width: 40%;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+.side {
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    border-radius: 2px;
+}
+
+.side-main {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+/*mozaic-grid*/
+.mozaic-grid img {
+    height: 100%;
+    width: 100%;
+}
+
+.mozaic-grid {
+    width: 80%;
+    height: 300%;
+    position: relative;
+    top: -15%;
+    margin: auto;
+    position: relative;
+}
+
+/*first column*/
+.first-column {
+    height: 100%;
+    width: 31.5%;
+    float: left;
+}
+
+.one {
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+}
+
+.two {
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.three {
+    width: 100%;
+    height: 10%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.four {
+    width: 100%;
+    height: 20%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.five {
+    width: 100%;
+    height: 17%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.six {
+    width: 100%;
+    height: 13%;
+    margin-top: 8.5%;
+    background-color: grey;
+}
+
+/* second column*/
+.second-column {
+    width: 31.5%;
+    height: 100%;
+    float: left;
+    margin-left: 2.7%;
+}
+.one1 {
+    width: 100%;
+    height: 18%;
+    background-color: grey;
+}
+
+.two1 {
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.three1 {
+    width: 100%;
+    height: 8%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.four1 {
+    width: 100%;
+    height: 13%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.five1 {
+    width: 100%;
+    height: 18%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.six1 {
+    width: 100%;
+    height: 10%;
+    margin-top: 8.5%;
+    background-color: grey;
+}
+/*third column*/
+.third-column{
+    width: 31.5%;
+    height: 100%;
+    float: right;
+}
+
+
+.one2 {
+    width: 100%;
+    height: 13.5%;
+    background-color: grey;
+}
+
+.two2 {
+    width: 100%;
+    height: 14.5%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.three2 {
+    width: 100%;
+    height: 16.5%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.four2 {
+    width: 100%;
+    height: 12.5%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.five2 {
+    width: 100%;
+    height: 13%;
+    background-color: grey;
+    margin-top: 8.5%;
+}
+
+.six2 {
+    width: 100%;
+    height: 17%;
+    margin-top: 8.5%;
+    background-color: grey;
+}
+/*copyright part*/
+.copyright{
+    width: 98%;
+    height: 40%;
+    background-color: #f2f2f2;
+    margin-top: -7%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    position: relative;
+}
+.middle{
+    height: 50%;
+    width: 80%;
+    position: relative;
+    top: 25%;
+    margin: auto;
+}
+.middle img {
+    float: left;
+    margin-left: 40px;
+}
+.text-part{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+}
+h4{
+    margin-top: 5%;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: grey;
+}
+span{
+    color: black;
+    font-weight: 1000;
+}
+.images-part{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+}
