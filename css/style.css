@@ -10,6 +10,7 @@ body {
     width: 98%;
     background-image: url(../images/Port_2_Background.jpg);
     margin: 1% 0 0 1%;
+    position: relative;
 }
 
 /*navigation bar*/
@@ -18,7 +19,24 @@ nav {
     position: relative;
     border-bottom: 1px solid grey;
 }
-
+.design{
+    width: 80px;
+    height: 320px;
+    background-color: white;
+    position: fixed;
+    box-shadow: -0.5px -0.5px 0.5px 0.5px;
+    right: -1%;
+    top: 25%;   
+    z-index: 100;
+}
+.design_inner{
+    height: 25%;
+    width: 100%;
+    border-bottom:1px solid #f2f2f2;
+}
+.none{
+    border: none;
+}
 /*icons part*/
 .icons {
     width: 40%;
