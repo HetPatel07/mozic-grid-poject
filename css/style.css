@@ -113,11 +113,11 @@ p {
 }
 
 .design {
-    width: 60px;
-    height: 240px;
+    width: 74px;
+    height: 269.8px;
     background-color: white;
     position: fixed;
-    box-shadow: -0.5px -0.5px 0.5px 0.5px;
+    box-shadow: -0.5px -0.5px 12px 0.5px rgba(0,0,0,.12);
     right: 0;
     top: 30%;
     z-index: 100;
